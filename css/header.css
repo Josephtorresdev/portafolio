@@ -4,7 +4,8 @@
 header {
     min-width: 960px;
     background-color: #1A237E;
-    display: flex;    
+    display: flex;
+    padding-right: 80px;
 }
 
 .header-principal {
