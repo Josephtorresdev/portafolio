@@ -2,7 +2,7 @@
 /* Header */
 
 header {
-    min-width: 960px;
+    min-width: 1150px;
     background-color: #1A237E;
     display: flex;
     
@@ -13,6 +13,7 @@ header {
     align-items: center;
     flex-direction: row-reverse;
     height: 60px;
+    padding-left: 80px;
 }
 
 .top-menu {
