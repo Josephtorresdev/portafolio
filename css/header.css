@@ -2,6 +2,7 @@
 /* Header */
 
 header {
+    min-width: 760px;
     background-color: #1A237E;
     display: flex;
     padding-right: 80px;
