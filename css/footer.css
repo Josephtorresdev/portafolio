@@ -1,6 +1,9 @@
 /* Footer */
 /* Portafolio Joseph Torres */
 
+footer {
+    min-width: 960px;
+
 .footer-general {
     display: flex;
     flex-direction: column;
