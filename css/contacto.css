@@ -1,0 +1,75 @@
+/* Portafolio Joseph Torres */
+/* Contacto */
+
+html {
+    min-width: 960px !important;
+}
+
+main {
+    padding: 10px 80px 10px 80px;
+    background: lightgray; 
+}
+.section-general {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* FORMULARIO */
+
+.formulario {
+    width: 80%;
+    display: flex;
+    padding: 0 0 100px 5%;
+    margin: 50px auto 50px auto;
+    background-color: white;
+    border-radius: 5%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 3% ;
+}
+
+form label, form legend{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 70%;
+}
+
+.Formatobotonenviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #222881;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Formatobotonenviar:hover{
+    background: grey;
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    main {
+        padding: 0 0 0 0;
+        background: lightgray;  
+    }
+}
