@@ -199,6 +199,10 @@ main {
         padding: 0 0 0 0;
         background: gray; 
     }
+    
+    .descargar-curriculum {
+        width: auto;
+}
 
     .boton-certificado {
         width: auto;
