@@ -1,13 +1,13 @@
 <?php
 
-if ( ! isset ( $_POST ['nombre']) ) {
+if ( ! isset ( $_GET ['nombre']) ) {
     header("Location: index.html");
 }
 
-$nombre = $_POST ['nombre'];
-$email = $_POST ['email'];
-$telefono = $_POST ['telefono'];
-$mensaje = $_POST ['mensaje'];
+$nombre = $_GET ['nombre'];
+$email = $_GET ['email'];
+$telefono = $_GET ['telefono'];
+$mensaje = $_GET ['mensaje'];
 
 
 
