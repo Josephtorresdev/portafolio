@@ -1,0 +1,141 @@
+/*////////////////////
+///     Footer     ///
+Portafolio Joseph Torres*/
+
+
+
+.footer-general {
+    display: flex;
+    background-color:#1A237E;
+    flex-direction: column;    
+    padding: 20px 80px 20px 80px;
+    clear: both;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+/* DESCRIPCION SITIO WEB */
+
+.descripcion-and-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descripcion-sitio-web {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.item-descripcion {
+    font-family: Arial;
+    font-size: 12px;
+    color: lightgrey;
+    padding-top: 5px;
+    list-style: none;
+}
+
+/* TITULO FOOTER */
+
+.titulo-footer {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+}
+
+.div-redes-sociales {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: right;
+}
+
+.titulo-descripcion-redes {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0 10px 0;
+    clear: both;
+}
+
+/* REDES SOCIALES FOOTER */
+
+.iconos-redes-sociales {
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.lista-footer{
+    margin-left: 20px;
+    text-align: right;
+}
+
+.item-descripcion-redes {
+    font-family: Arial;
+    font-size: 12px;
+    color: lightgrey;
+    text-align: right;
+    padding-top: 5px;
+}
+
+
+/* MENU FOOTER */ 
+
+.menu-footer {
+    display: flex;
+    padding-bottom: 6px;
+    border-bottom: solid 1px white;
+}
+
+.menu-item-footer:nth-child(3) {
+    padding-left: 15px;
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .footer-general {
+        padding: 20px 40px 20px 40px;
+    }
+
+    .titulo-footer {
+        font-size: 30px;
+    }
+
+    .titulo-descripcion-redes {
+        font-size: 20px;
+    }
+
+    .item-descripcion {
+        font-size: 20px;
+    }
+
+    .item-descripcion-redes {
+        font-size: 20px;
+    }
+
+    .lista-footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer a {
+        font-size: 25px;
+    }
+    
+    .menu-footer {
+        padding-top: 20px;
+    }
+}
