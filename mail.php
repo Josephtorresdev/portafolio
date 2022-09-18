@@ -1,8 +1,5 @@
 <?php
 
-if ( ! isset ( $_GET ['nombre']) ) {
-    header("Location: index.html");
-}
 
 $nombre = $_GET ['nombre'];
 $email = $_GET ['email'];
@@ -15,3 +12,5 @@ $mensaje = $_GET ['mensaje'];
 
 $rta = mail ('josephbrit@gmail.com', "Mensaje Web: $telefono", $mensaje);
 var_dump($rta);
+
+?>
