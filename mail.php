@@ -10,7 +10,7 @@ $mensaje = $_GET ['mensaje'];
 
 //REMITENTE //
 
-$rta = mail ('josephbrit@gmail.com', "Mensaje Web: $telefono", $mensaje);
-var_dump($rta);
+mail ('josephbrit@gmail.com', "Mensaje Web: $telefono", $mensaje);
+
 
 ?>
