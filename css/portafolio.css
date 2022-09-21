@@ -240,4 +240,9 @@ main {
     .parrafo-curso-item {
         font-size: 15px;
     }
+	
+     .ir-arriba {
+        bottom:320px;
+    }
+}
 }
