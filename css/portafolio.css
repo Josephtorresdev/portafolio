@@ -195,7 +195,7 @@ main {
 	position: fixed;
 	bottom:210px;
 	right:10px;
-    filter: invert(10%) sepia(77%) saturate(2986%) hue-rotate(230deg) brightness(105%) contrast(99%);
+	filter: invert(6%) sepia(50%) saturate(5520%) hue-rotate(229deg) brightness(95%) contrast(96%);
 }
 
 /* RESPONSIVE */
