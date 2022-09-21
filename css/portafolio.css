@@ -185,8 +185,20 @@ main {
 
 }
 
-/* RESPONSIVE */
+* BOTON IR ARRIBA */
 
+.ir-arriba {
+	display:flex;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:210px;
+	right:10px;
+    filter: invert(10%) sepia(77%) saturate(2986%) hue-rotate(230deg) brightness(105%) contrast(99%);
+}
+
+/* RESPONSIVE */
 
 @media (max-width: 1100px) {
     .curso-item {
