@@ -1,8 +1,10 @@
-/*////////////////////
-///     Footer     ///
-Portafolio Joseph Torres*/
+/*//////////////////////////////////////////////////////////
+////             DESARROLLADO POR JOSEPH TORRES         ////
+////    https://josephtorresdev.github.io/portafolio/   ////
+////                                                    ////
+////////////////////////////////////////////////////////////
 
-
+/* FOOTER */
 
 .footer-general {
     display: flex;
@@ -107,6 +109,10 @@ footer a {
     padding-left: 15px;
 }
 
+.menu-item-footer:nth-child(5) {
+    padding-left: 15px;
+}
+
 
 /* RESPONSIVE */
 
@@ -167,5 +173,17 @@ footer a {
         text-align: center;
     }
 
+    .menu-footer {
+        padding-top: 40px;
+        margin-bottom: 12px;
+        border-bottom: solid 1px white;
+    }
 
+    .menu-item-footer:nth-child(3) {
+        padding-left: 50px;
+    }
+    
+    .menu-item-footer:nth-child(5) {
+        padding-left: 50px;
+    }
 }

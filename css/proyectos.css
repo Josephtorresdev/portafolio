@@ -1,0 +1,189 @@
+/*//////////////////////////////////////////////////////////
+////             DESARROLLADO POR JOSEPH TORRES         ////
+////    https://josephtorresdev.github.io/portafolio/   ////
+////                                                    ////
+///////////////////////////////////////////////////////////*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    min-width: 960px !important;
+}
+
+main {
+    padding: 10px 80px 10px 80px;
+    background: lightgray;
+}
+
+.main-proyectos {
+    background: rgba(230, 230, 230);
+}
+
+/* TITULO PAGINA */
+
+.titulo-principales{
+    top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(13 25 73);
+    text-align: left;
+    padding: 30px;
+}
+
+/* ESTILOS GENERALES DE LOS IITEMS */
+
+.general-proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div-pagina {
+    display: flex;
+    background-size:cover;
+    width: 400px;
+    height: 225px;
+    margin: 0 0 50px 50px;
+    border-radius: 5%;
+}
+
+.item-pagina {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 400px;
+    height: 225px;
+    background: rgba(12,12,12,0.69);
+    transition: 0.5s;
+    opacity: 0;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-pagina a {
+    text-decoration: none;
+    color: white;
+}
+
+.item-pagina:hover {
+    opacity: 1;  
+}
+
+.parrafo-item {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.boton-sitio-web {
+    display: flex;
+    border: solid 1px white;
+    border-radius: 5%;
+    transition: 0.7s;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.boton-sitio-web:hover {
+    background: white;
+    color: rgba(12,12,12,0.69);
+}
+
+
+/* PAGINA DE CHAMOS-PPG ESPAÑOL*/
+
+.chamos-ppg {
+    background-image:url(../proyectos/chamosppg.png);
+}
+
+/* PAGINA DE PING INTERNET ESPAÑOL*/
+
+.ping-internet {
+    background-image:url(../proyectos/ping-internet.png);
+}
+
+/* PRONTO ESPANOL */
+
+.pronto-espanol {
+    background-image:url(../proyectos/pronto-espanol.png);
+}
+
+/* PAGINA DE CHAMOS-PPG INGLES*/
+
+.chamos-ppg-en {
+    background-image: url(../proyectos/Chamosppg-en.png);
+}
+
+/* PAGINA DE PING INTERNET INGLES*/
+
+.ping-internet-en {
+    background-image: url(../proyectos/ping-internet-en.png);
+}
+
+/* PRONTO INGLES */
+
+.pronto-ingles {
+    background-image:url(../proyectos/pronto-ingles.png);
+}
+
+.provicional {
+    padding-bottom: 200px;
+    padding-left: 350px;
+}
+
+/* PAGINA RESPONSIVE */
+
+@media (max-width: 1000px) {
+
+    main {
+        padding: 0 0 0 0;
+    }
+
+    .titulo-principales {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .general-proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .div-pagina {
+        margin: 0 0 50px 0;
+        width: 700px;
+        height: 400px;
+    }
+
+    .item-pagina {
+        width: 700px;
+        height: 400px;
+    }
+
+    .parrafo-item {
+        font-size: 30px;
+    }
+    
+    .boton-sitio-web {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    /* BOTON IR ARRIBA */
+    
+    .ir-arriba {
+        right:30px;
+    }
+
+    .provicional {
+        padding-bottom: 200px;
+        padding-left: 0;
+    }
+}

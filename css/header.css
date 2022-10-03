@@ -1,5 +1,10 @@
-/* Portafolio Joseph Torres */
-/* Header */
+/*//////////////////////////////////////////////////////////
+////             DESARROLLADO POR JOSEPH TORRES         ////
+////    https://josephtorresdev.github.io/portafolio/   ////
+////                                                    ////
+////////////////////////////////////////////////////////////
+
+/* HEADER */
 
 header {
     background-color: #0D1949;
@@ -21,10 +26,14 @@ header {
 
 .top-menu-item {
     display: flex;
-    margin-left: 25px;
+    margin-left: 45px;
     cursor: pointer;
 }
 
+.hidden-computer {
+    display: none;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(236deg) brightness(105%) contrast(101%);
+}
 
 nav a {
     color: white;
@@ -34,6 +43,12 @@ nav a {
 }
 
 nav a:hover{
+    border-bottom: solid 2px white;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 20px;
     border-bottom: solid 2px white;
 }
 
@@ -92,46 +107,61 @@ nav a:hover{
     background: lightgray;
 }
 
-
-@media only screen and (max-width: 768px) {
-
-    header {
-        padding-right: 0;
-    }
-    
-    nav a {
-        font-size: 60px;  
-    }  
+@media only screen and (max-width: 1000px) {
 
     .header-principal {
-        flex-direction: column;
-        height: 250px;
-        padding-left: 0;
-        padding-top: 40px;
+        height: 120px;
+        border-bottom: solid 2px white;
     }
 
     .top-menu {
+        display: none;
+    }
+
+    .hidden-computer {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-menu {
+        display: none;
+        position: fixed;
         flex-direction: column;
-        width: 100%;
+        top: -0px;
+        left: 0px;
+        width: 75%;
+        height: 100%;
+        background: rgba(12,12,12,0.90);
+        z-index: 999;
         text-align: center;
-        padding-bottom: 10px;
-        padding-left: 0;
+        padding: 0 50px 0 50px;
+    }
+
+    .top-menu {
+        padding-top: 150px;
     }
 
     .top-menu-item {
-        margin-top: 30px;
-        margin-left: 0px;
+        padding: 30px 50px 30px 50px;
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px white;
     }
 
-    .top-menu-item img {
-        width: 25px;
-        height: 25px;
+    .menu-oculto {
+        font-size: 30px;
+        font-weight: bold;
+        padding-right: 20px;
+    }
+
+    nav a {
+        font-size: 40px;
     }
 
     .en, .es {
         font-size: 40px;
-        margin-top: 5px;
-        padding: 0 5px 0 5px;
+        padding: 0 15px 0 15px;
     }
 
     .check {
@@ -146,15 +176,12 @@ nav a:hover{
     }
     
     .check:after {
-
         width: 50px;
         height: 50px;
         border-radius: 50px;
-    }    
+    }
     
     .check:checked:after{
         left: 50px;
     }
-
 }
-
