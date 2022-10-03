@@ -159,6 +159,11 @@ nav a:hover{
         font-size: 40px;
     }
 
+    .active {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
     .en, .es {
         font-size: 40px;
         padding: 0 15px 0 15px;
