@@ -23,11 +23,11 @@ main {
 
 .main-bienvenida{
     display: flex;
-    background: rgba(0,0,0,0.5);
     flex-direction: column;
     text-align: left;
     padding: 60px 20px 70px 5%;
     align-items: baseline;
+    background: rgba(0,0,0,0.5);
 }
 
 .main-primero {
@@ -172,7 +172,7 @@ main {
 }   
 
 .boton-certificado {
-    width: 40%;
+    width: 60%;
     background: transparent;
     font-weight: bold;
     padding: 10px;
