@@ -108,7 +108,6 @@ main {
 
 .item-habilidades img {
     margin: 0 auto 0 auto;
-    cursor: pointer;
     width: 100px;
     height: 100px;
 }
@@ -157,11 +156,6 @@ main {
 
 .curso-item:hover {
     transform: scale(1.05);
-}
-
-.titulo-curso-item:hover, .parrafo-curso-item:hover {
-    cursor: pointer;
-    text-decoration: underline;
 }
 
 .curso-item img {
