@@ -97,6 +97,10 @@ main {
 
 /* PAGINA DE CHAMOS-PPG ESPAÑOL*/
 
+.usuariosp2p {
+    background-image:url(../proyectos/usuariosp2p.png);
+}
+
 .chamos-ppg {
     background-image:url(../proyectos/chamosppg.png);
 }
@@ -114,6 +118,10 @@ main {
 }
 
 /* PAGINA DE CHAMOS-PPG INGLES*/
+
+.usuariosp2p-en {
+    background-image:url(../proyectos/usuariosp2p-en.png);
+}
 
 .chamos-ppg-en {
     background-image: url(../proyectos/Chamosppg-en.png);
