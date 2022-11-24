@@ -4,9 +4,9 @@ check.addEventListener('click', idioma)
 function idioma(){
     let id=check.checked;
     if (id==true){
-        location.href="../certi/certificado=MTMzMzYtMTMyNC03NDMxLTE3MTI0NTIyLURpc3RyaXRvIENhcGl0YWw-en.html";
+        location.href="../certi/certificado=MTMzMzYtMTMyNC03NDMxLTE3MTI0NTIyLURpc3RyaXRvIENhcGl0YWw-en";
     }else{
-        location.href="../certi/certificado=MTMzMzYtMTMyNC03NDMxLTE3MTI0NTIyLURpc3RyaXRvIENhcGl0YWw.html";
+        location.href="../certi/certificado=MTMzMzYtMTMyNC03NDMxLTE3MTI0NTIyLURpc3RyaXRvIENhcGl0YWw";
     }
 }
 

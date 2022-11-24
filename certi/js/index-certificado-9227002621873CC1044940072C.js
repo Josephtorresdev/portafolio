@@ -4,9 +4,9 @@ check.addEventListener('click', idioma)
 function idioma(){
     let id=check.checked;
     if (id==true){
-        location.href="../certi/certificado=9227002621873CC1044940072C-en.html";
+        location.href="../certi/certificado=9227002621873CC1044940072C-en";
     }else{
-        location.href="../certi/certificado=9227002621873CC1044940072C.html";
+        location.href="../certi/certificado=9227002621873CC1044940072C";
     }
 }
 

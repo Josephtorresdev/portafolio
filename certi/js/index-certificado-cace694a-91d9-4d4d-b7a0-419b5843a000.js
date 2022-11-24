@@ -4,9 +4,9 @@ check.addEventListener('click', idioma)
 function idioma(){
     let id=check.checked;
     if (id==true){
-        location.href="../certi/certificado=cace694a-91d9-4d4d-b7a0-419b5843a000-en.html";
+        location.href="../certi/certificado=cace694a-91d9-4d4d-b7a0-419b5843a000-en";
     }else{
-        location.href="../certi/certificado=cace694a-91d9-4d4d-b7a0-419b5843a000.html";
+        location.href="../certi/certificado=cace694a-91d9-4d4d-b7a0-419b5843a000";
     }
 }
 
