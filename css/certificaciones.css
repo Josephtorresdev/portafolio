@@ -67,7 +67,7 @@ main {
     border: solid 2px white;
     background-color: rgba(13 25 73);
     transition: 0.3s;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .curso-item img {
@@ -126,7 +126,6 @@ main {
         width: 80% !important;
     }
     
-
     .titulo-principal-main {
         font-size: 40px;
         position: relative;
