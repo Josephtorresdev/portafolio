@@ -94,19 +94,18 @@ main {
     padding: 30px 50px 30px 350px;
     text-align: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .item-habilidades {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 33%;
     font-weight: bold;
-    color:#1A237E;
     padding: 50px 0 50px 0;
 }
 
-.item-habilidades img {
+.main-habilidades img {
     margin: 0 auto 0 auto;
     width: 100px;
     height: 100px;
@@ -132,14 +131,15 @@ main {
     font-weight: bold;
     font-size: 12px;
     color: white;
-    padding: 20px 0 10px 0;
+    padding: 10px;
     margin: 0 5px 0 5px;
      
 }
 
 .parrafo-curso-item {
-    font-size: 11px;
-    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
 }
 
 .curso-item {
@@ -150,17 +150,11 @@ main {
     padding: 20px 0 20px 0;
     border: solid 2px white;
     background-color: rgba(13 25 73);
-    transition: 0.3s;
-    border-radius: 5%;
-}
-
-.curso-item:hover {
-    transform: scale(1.05);
+    border-radius: 20px;
 }
 
 .curso-item img {
     margin: 0 auto 0 auto;
-    border-radius: 50%;
     width: 128px;
     height: 128px;
 }   
@@ -172,17 +166,17 @@ main {
     padding: 10px;
     text-align: center;
     margin: 10px auto 10px auto;
-    color: white;
+    color: gray;
     text-decoration: none;
-    border: solid 1px white;
+    border: solid 1px gray;
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
 .boton-certificado:hover {
     color: rgba(13 25 73);
-    background:white;
+    background:gray;
 
 }
 
@@ -277,11 +271,7 @@ main {
         padding: 30px 50px 30px 50px;
     }
 
-    .item-habilidades {
-        width: 50%;
-    }
-
-    .item-habilidades img {
+    .main-habilidades img {
         width: 150px;
         height: 150px;
     }
@@ -297,7 +287,7 @@ main {
     }
 
     .parrafo-curso-item {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .curso-item img {

@@ -4,8 +4,7 @@
 ////                                                    ////
 ////////////////////////////////////////////////////////////
 
-/* CERTIFICACIONES */
-
+/* FORMACION */
 
 html {
     min-width: 960px !important;
@@ -56,7 +55,7 @@ main {
 .parrafo-curso-item {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
-    color: white;
+    color: gray;
 }
 
 .curso-item {
@@ -71,18 +70,8 @@ main {
     border-radius: 5%;
 }
 
-.curso-item:hover {
-    transform: scale(1.05);
-}
-
-.titulo-curso-item:hover, .parrafo-curso-item:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 .curso-item img {
     margin: 0 auto 0 auto;
-    border-radius: 50%;
     width: 128px;
     height: 128px;
 }   
@@ -95,17 +84,17 @@ main {
     padding: 10px;
     text-align: center;
     margin: 10px auto 10px auto;
-    color: white;
+    color: gray;
     text-decoration: none;
-    border: solid 1px white;
+    border: solid 1px gray;
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
 .boton-certificado:hover {
     color: rgba(13 25 73);
-    background:white;
+    background:gray;
 }
 
 
@@ -125,18 +114,18 @@ main {
 /* RESPONSIVE */
 
 @media (max-width: 1000px) {
-    .curso-item {
-    width: 80% !important;
-    }
-}
 
-@media (max-width: 960px) {
     main {
         padding: 0 0 0 0;
         background: gray; 
     }
-    
+
     /* MAIN CURSOS */
+
+    .curso-item {
+        width: 80% !important;
+    }
+    
 
     .titulo-principal-main {
         font-size: 40px;

@@ -116,7 +116,8 @@ footer a {
 
 /* RESPONSIVE */
 
-@media (min-width: 200px) and (max-width: 768px) {
+@media (max-width: 1000px) {
+    
     .footer-general {
         padding: 20px 40px 20px 40px;
     }
