@@ -13,28 +13,22 @@ function idioma(){
 
 window.sr = ScrollReveal();
 
-    sr.reveal('.top-menu', {
-        duration: 2000,
+    sr.reveal('.titulo-bienvenida', {
+        duration: 1000,
         origin: 'bottom',
         distance: '-100px'
     });
 
-    sr.reveal('.titulo-bienvenida', {
-        duration: 4000,
-        origin: 'bottom',
-        distance: '-400px'
-    });
-
      sr.reveal('.lista-bienvenida', {
-        duration: 2000,
-        origin: 'bottom',
-        distance: '-400px'
+        duration: 3000,
+        origin: 'left',
+        distance: '200px'
     });
 
     sr.reveal('.descargar-curriculum', {
-        duration: 2000,
-        origin: 'bottom',
-        distance: '-400px'
+        duration: 4000,
+        origin: 'left',
+        distance: '400px'
     });
     
     sr.reveal('.main-cursos', {
