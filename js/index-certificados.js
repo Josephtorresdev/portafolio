@@ -15,8 +15,7 @@ window.sr = ScrollReveal();
     sr.reveal('.curso-item', {
         duration: 2000,
         origin: 'bottom',
-        distance: '100px',
-        reset: true
+        distance: '100px'
     });
 
 $(document).ready(function(){
