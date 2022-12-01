@@ -81,36 +81,40 @@ main {
     background: rgba(230, 230, 230);
 }
 
-.item-formacion {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 50px;
-    text-align: center;
-}
-
 .main-habilidades {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 30px 50px 30px 350px;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+}
+
+.grupo-habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .item-habilidades {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-weight: bold;
-    padding: 50px 0 50px 0;
+    background: rgba(13 25 73);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 20px;
+    border: solid 3px #b5b5b5;
+}
+
+.item-habilidades:hover {
+    border: solid 3px white ;
 }
 
 .main-habilidades img {
     margin: 0 auto 0 auto;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    filter: invert(79%) sepia(23%) saturate(20%) hue-rotate(338deg) brightness(90%) contrast(86%);
 }
 
+.main-habilidades img:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(9deg) brightness(103%) contrast(106%);
+}
 
 /* MAIN CURSOS */
 
@@ -145,10 +149,10 @@ main {
 .curso-item {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     margin: 40px;
     padding: 20px 0 20px 0;
-    border: solid 2px white;
+    border: solid 2px #b5b5b5;
     background-color: rgba(13 25 73);
     border-radius: 20px;
 }
@@ -272,8 +276,8 @@ main {
     }
 
     .main-habilidades img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     /* MAIN CURSOS */

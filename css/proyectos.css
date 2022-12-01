@@ -40,6 +40,7 @@ main {
 .general-proyectos {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -144,7 +145,7 @@ main {
 
 .provicional {
     padding-bottom: 200px;
-    padding-left: 350px;
+    padding-left: 300px;
 }
 
 /* PAGINA RESPONSIVE */
