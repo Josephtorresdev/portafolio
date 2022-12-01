@@ -30,13 +30,19 @@ window.sr = ScrollReveal();
         origin: 'left',
         distance: '400px'
     });
-    
-    sr.reveal('.main-cursos', {
-        duration: 2500,
-        origin: 'left',
-        distance: '600px'
+
+    sr.reveal('.arriba-item', {
+        duration: 2000,
+        origin: 'top',
+        distance: '100px'
     });
 
+    sr.reveal('.abajo-item', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '100px'
+    });
+    
     $(document).ready(function(){
 
         $('.ir-arriba').click(function(){

@@ -12,16 +12,16 @@ function idioma(){
 
 window.sr = ScrollReveal();
 
-    sr.reveal('.top-menu', {
+    sr.reveal('.curso-item', {
         duration: 2000,
         origin: 'bottom',
-        distance: '-100px'
+        distance: '100px'
     });
 
-    sr.reveal('.main-cursos', {
-        duration: 2500,
-        origin: 'left',
-        distance: '600px'
+    sr.reveal('.item-abajo', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '100px'
     });
 
 $(document).ready(function(){
