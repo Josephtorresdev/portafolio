@@ -61,7 +61,7 @@ main {
 .curso-item {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     margin: 40px;
     padding: 20px 0 20px 0;
     border: solid 2px white;
