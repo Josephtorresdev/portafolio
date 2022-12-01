@@ -34,13 +34,15 @@ window.sr = ScrollReveal();
     sr.reveal('.arriba-item', {
         duration: 2000,
         origin: 'top',
-        distance: '100px'
+        distance: '100px',
+        mobile: false
     });
 
     sr.reveal('.abajo-item', {
         duration: 2000,
         origin: 'bottom',
-        distance: '100px'
+        distance: '100px',
+        mobile: false
     });
     
     $(document).ready(function(){
