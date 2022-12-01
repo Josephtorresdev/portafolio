@@ -16,25 +16,29 @@ window.sr = ScrollReveal();
     sr.reveal('.titulo-bienvenida', {
         duration: 1000,
         origin: 'bottom',
-        distance: '-100px'
+        distance: '-100px',
+        reset: true
     });
 
      sr.reveal('.lista-bienvenida', {
-        duration: 3000,
+        duration: 2000,
         origin: 'left',
-        distance: '200px'
+        distance: '200px',
+        reset: true
     });
 
     sr.reveal('.descargar-curriculum', {
-        duration: 4000,
+        duration: 2000,
         origin: 'left',
-        distance: '400px'
+        distance: '400px',
+        reset: true
     });
 
     sr.reveal('.arriba-item', {
         duration: 2000,
         origin: 'top',
         distance: '100px',
+        reset: true,
         mobile: false
     });
 
@@ -42,6 +46,7 @@ window.sr = ScrollReveal();
         duration: 2000,
         origin: 'bottom',
         distance: '100px',
+        reset: true,
         mobile: false
     });
     
