@@ -16,14 +16,16 @@ sr.reveal('.arriba-item', {
     duration: 2000,
     origin: 'top',
     distance: '100px',
-    reset: true
+    reset: true,
+    mobile: false
 });
 
 sr.reveal('.abajo-item', {
     duration: 2000,
     origin: 'bottom',
     distance: '100px',
-    reset: true
+    reset: true,
+    mobile: false
 });
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
