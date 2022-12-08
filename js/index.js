@@ -27,10 +27,25 @@ window.sr = ScrollReveal();
         reset: true
     });
 
-    sr.reveal('.descargar-curriculum', {
+    sr.reveal('.div-botom-curriculum', {
         duration: 2000,
         origin: 'left',
         distance: '400px',
+        reset: true,
+        mobile: false
+    });
+
+    sr.reveal('.img-telefono', {
+        duration: 2000,
+        origin: 'left',
+        distance: '100px',
+        reset: true
+    });
+
+    sr.reveal('.img-laptop', {
+        duration: 2000,
+        origin: 'right',
+        distance: '100px',
         reset: true
     });
 
