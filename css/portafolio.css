@@ -11,7 +11,7 @@
 }
 
 html {
-    min-width: 960px !important;
+    min-width: 1000px !important;
 }
 
 main {
@@ -23,10 +23,10 @@ main {
 
 .main-bienvenida{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
-    padding: 60px 20px 70px 5%;
-    align-items: baseline;
+    padding: 0 20px 50px 5%;
+    align-items: center;
     background: rgba(0,0,0,0.7);
 }
 
@@ -47,8 +47,11 @@ main {
     list-style-type: none;
 }
 
+.div-botom-curriculum {
+    padding-top: 30px;
+}
+
 .descargar-curriculum {
-    margin: 30px 0 20px 0;
     background: transparent;
     color: white;
     border: solid 1px white;
@@ -62,6 +65,22 @@ main {
 .descargar-curriculum:hover {
     background: white;
     color: black;
+}
+
+.div-imagenes-bienvenida {
+    padding-left: 100px;
+}
+
+.img-laptop {
+    width: 400px;
+    height: 300px;
+}
+
+.img-telefono {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 855px;
 }
 
 
@@ -218,7 +237,6 @@ main {
     padding-left: 300px;
 }
 
-
 /* BOTON IR ARRIBA */
 
 .ir-arriba {
@@ -231,15 +249,14 @@ main {
 	filter: invert(6%) sepia(50%) saturate(5520%) hue-rotate(229deg) brightness(95%) contrast(96%);
 }
 
-/* RESPONSIVE */
-
-@media (max-width: 1000px) {
-    .curso-item {
-    width: 80% !important;
-    }
+body, html {
+    overflow-x: hidden !important;
 }
 
-@media (max-width: 960px) {
+/* RESPONSIVE */
+
+
+@media only screen and (max-width:1000px) {
     main {
         padding: 0 0 0 0;
         background: gray; 
@@ -248,19 +265,46 @@ main {
     .titulo-bienvenida{
         font-size: 40px;
         text-align: center;
+        line-height: 1.5;
         padding: 30px 0 30px 0;
-        margin-bottom: 70px;
+        margin-bottom: 0px;
     }
     
     .lista-bienvenida {
         display: none; 
     }
 
+    .main-bienvenida {
+        flex-direction: column-reverse;
+        padding: 0 0 0 0;
+    }
+
+    .div-imagenes-bienvenida {
+        padding-left: 30;
+    }
+
+    .img-laptop {
+        width: 700px;
+        height: 500px;
+    }
+
+    .img-telefono {
+        width: 150px;
+        top: 240px;
+        left: 100px;
+    }
+
+    .div-botom-curriculum {
+        display: flex;
+        padding-bottom: 100px;
+    }
+
     .descargar-curriculum {
-        width: 320px;
+        padding: 30px 20px 30px 20px;
         text-align: center;
         margin: 0 auto 0 auto;
-        font-size: 30px;
+        font-size: 35px;
+        border: solid 2px white;
     }
 
     /* MAIN HABILIDADES */
@@ -289,6 +333,10 @@ main {
 
     .main-cursos {
         padding: 30px 50px 30px 50px;
+    }
+
+    .curso-item {
+        width: 80% !important;
     }
 
     .titulo-curso-item {

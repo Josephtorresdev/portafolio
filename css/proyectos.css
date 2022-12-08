@@ -12,7 +12,7 @@
 }
 
 html {
-    min-width: 960px !important;
+    min-width: 1000px !important;
 }
 
 main {
@@ -150,7 +150,7 @@ main {
 
 /* PAGINA RESPONSIVE */
 
-@media (max-width: 1000px) {
+@media only screen and (max-width:1000px) {
 
     main {
         padding: 0 0 0 0;
