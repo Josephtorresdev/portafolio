@@ -237,16 +237,35 @@ main {
     padding-left: 300px;
 }
 
+/* BARRA LATERAL */
+
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 275px;
+    right: 20px;
+}
+
+.img-lateral {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+}
+
 /* BOTON IR ARRIBA */
 
 .ir-arriba {
-	font-size:20px;
-	color:#fff;
 	cursor:pointer;
 	position: fixed;
 	bottom:210px;
-	right:10px;
+	right:20px;
 	filter: invert(6%) sepia(50%) saturate(5520%) hue-rotate(229deg) brightness(95%) contrast(96%);
+}
+
+.img-ir-arriba {
+    width: 50px;
+    height: 50px;
 }
 
 body, html {
@@ -263,7 +282,7 @@ body, html {
     }
     
     .titulo-bienvenida{
-        font-size: 38px;
+        font-size: 35px;
         text-align: center;
         line-height: 1.5;
         padding: 30px 0 30px 0;
@@ -305,6 +324,7 @@ body, html {
         margin: 0 auto 0 auto;
         font-size: 35px;
         border: solid 2px white;
+        border-radius: 20px;
     }
 
     /* MAIN HABILIDADES */
@@ -357,10 +377,6 @@ body, html {
         padding: 15px;
         margin: 30px auto 30px auto;
     }
-	
-    .ir-arriba {
-        bottom: 800px;
-    }
 
     /* MAIN PROYECTOS */
 
@@ -382,5 +398,18 @@ body, html {
     /* BOTON IR ARRIBA */
     .ir-arriba {
         right:30px;
+        bottom: 750px;
     }
+
+    .img-ir-arriba {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* BOTONES LATERALES */
+
+    .barra-lateral {
+        display: none;
+    }  
+
 }
