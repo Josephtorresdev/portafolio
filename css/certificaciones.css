@@ -19,7 +19,6 @@ main {
 /* MAIN CURSOS */
 
 .titulo-principal-main {
-    position: sticky;
     top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -39,7 +38,6 @@ main {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-    padding: 30px 50px 30px 350px;
 }
 
 .titulo-curso-item {
@@ -61,8 +59,8 @@ main {
 .curso-item {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin: 40px;
+    width: 440px;
+    margin: 20px 0;
     padding: 20px 0 20px 0;
     border: solid 2px white;
     background-color: rgba(13 25 73);
