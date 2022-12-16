@@ -38,6 +38,7 @@ main {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
+    padding: 0 100px;
 }
 
 .titulo-curso-item {
@@ -59,10 +60,10 @@ main {
 .curso-item {
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 400px;
     margin: 20px 0;
     padding: 20px 0 20px 0;
-    border: solid 2px white;
+    border: solid 2px #b5b5b5;
     background-color: rgba(13 25 73);
     transition: 0.3s;
     border-radius: 20px;
@@ -70,8 +71,8 @@ main {
 
 .curso-item img {
     margin: 0 auto 0 auto;
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
 }   
 
 .boton-certificado {
