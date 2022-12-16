@@ -107,6 +107,35 @@ nav a:hover{
     background: lightgray;
 }
 
+/* BARRA LATERAL */
+
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    border-top: solid 2px gray;
+    border-right: solid 2px gray;
+    border-bottom: solid 2px gray;
+    padding: 0 10px;
+    background: #0D1949;
+}
+
+.img-lateral {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.adicional-bottom {
+    padding-bottom: 10px;
+}
+
+.img-lateral:hover {
+    transform: scale(1.2);
+}
+
 @media only screen and (max-width: 1000px) {
 
     .header-principal {

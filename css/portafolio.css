@@ -87,7 +87,6 @@ main {
 /* MAIN HABILIDADES */
 
 .titulo-principal-main {
-    position: sticky;
     top: 10px;
     font-size: 25px;
     font-weight: bold;
@@ -103,13 +102,13 @@ main {
 .main-habilidades {
     display: flex;
     flex-direction: column;
-    padding: 30px 50px 30px 350px;
+    padding: 50px 0;
 }
 
 .grupo-habilidades {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .item-habilidades {
@@ -142,12 +141,15 @@ main {
 }
 
 .main-cursos {
+    padding: 20px 0;
+}
+
+.main-cursos-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
-    padding: 30px 50px 30px 350px;
 }
 
 .titulo-curso-item {
@@ -168,8 +170,8 @@ main {
 .curso-item {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin: 40px;
+    width: 400px;
+    margin: 20px 0;
     padding: 20px 0 20px 0;
     border: solid 2px #b5b5b5;
     background-color: rgba(13 25 73);
@@ -178,8 +180,8 @@ main {
 
 .curso-item img {
     margin: 0 auto 0 auto;
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
 }   
 
 .boton-certificado {
@@ -210,7 +212,7 @@ main {
 
 .boton-ver-mas {
     text-align: center;
-    padding: 50px 0 50px 350px;
+    padding-bottom: 30px;
 }
 
 .boton-ver-mas-i {
@@ -234,23 +236,7 @@ main {
 }
 
 .general-proyectos {
-    padding-left: 300px;
-}
-
-/* BARRA LATERAL */
-
-.barra-lateral {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    bottom: 275px;
-    right: 20px;
-}
-
-.img-lateral {
-    width: 50px;
-    height: 50px;
-    padding-top: 15px;
+    padding: 20px 0;
 }
 
 /* BOTON IR ARRIBA */
@@ -351,7 +337,7 @@ body, html {
 
     /* MAIN CURSOS */
 
-    .main-cursos {
+    .main-cursos-items {
         padding: 30px 50px 30px 50px;
     }
 
@@ -413,3 +399,27 @@ body, html {
     }  
 
 }
+
+
+@media only screen and (min-width:1800px) {
+
+    html {
+        display: none;
+    }
+
+    /* BOTON IR ARRIBA */
+    .ir-arriba {
+        display: none;
+    }
+    
+    .img-ir-arriba {
+        display: none;
+    }
+    
+    /* BOTONES LATERALES */
+    
+    .barra-lateral {
+        display: none;
+    }
+}
+    

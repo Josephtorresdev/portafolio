@@ -49,7 +49,7 @@ main {
     background-size:cover;
     width: 400px;
     height: 225px;
-    margin: 0 0 50px 50px;
+    margin: 50px 0;
     border-radius: 20px;
 }
 
@@ -145,7 +145,6 @@ main {
 
 .provicional {
     padding-bottom: 200px;
-    padding-left: 300px;
 }
 
 /* PAGINA RESPONSIVE */
