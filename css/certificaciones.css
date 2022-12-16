@@ -34,11 +34,14 @@ main {
 
 .main-cursos {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    padding: 0 100px;
+}
+
+.duo-items {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .titulo-curso-item {
@@ -133,6 +136,11 @@ main {
 
     .main-cursos {
         padding: 30px 50px 30px 50px;
+    }
+
+    .duo-items {
+        flex-direction: column;
+        align-items: center;
     }
 
     .titulo-curso-item {
